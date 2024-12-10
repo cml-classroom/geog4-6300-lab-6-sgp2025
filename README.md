@@ -5,9 +5,9 @@ Complete the lab assignment by filling in the template. Knit it to a Github docu
 * Question 1:You're correct. <p>
 * Question 2:Good work. <p>
 * Question 3:Well explained.<p>
-* Question 4: Well, I don't see any explanation regarding the statistical significance. Also, what is the effect of your chosen variable of interest on NDVI? For example,Pop_20 magnitude is 0.0000015. You can say like if population increases by 1,000, does NDVI increase by 0.0015. <p>
+* Question 4: What is the effect of your chosen variable of interest on NDVI? For example,Pop_20 magnitude is 0.0000015. You can say like if population increases by 1,000, does NDVI increase by 0.0015. "Small" indicates magnitude but only in a vague way.<p>
 * Question 5:Well done. <p>
-* Question 6:I can see a slight shift in the coefficient compared to the univariate models. However, the R² value indicates the model's fitness and represents the proportion of variance in the dependent variable explained by the independent variable(s) in the model. <p>
+* Question 6:I can see a slight shift in the coefficient compared to the univariate models--that was a part of the question that you didn't address. <p>
 * Question 7:Well done. <p>
 * Question 8:Excellent. <p>
 * Question 9:Well explained.<p>
