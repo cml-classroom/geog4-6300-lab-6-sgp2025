@@ -337,10 +337,18 @@ summary(model_elevation)
     ## F-statistic: 38.08 on 1 and 714 DF,  p-value: 1.136e-09
 
 {Maximum and minumum temperatures have negative relationships with the
-NDVA and a small but significant magnitudes. Rainfall, population, and
-elevation have positive relationships with the NDVA and very small but
-significant magnitudes. Water has a negative relationship but no
-significant magnitude. }
+NDVA and a small but significant magnitudes. For every increase in one
+degree, NDVI is expected to decrease by 0.0131 for maximum temperature
+and 0.0123 for the minimum. Both p-values are \<2e-16, meaning there is
+a highly significant relationship. Rainfall, population, and elevation
+have positive relationships with the NDVA and very small but significant
+magnitudes. For an increase in 1,000 mm of rainfall every year, the
+NVDIA is expected to go up by 0.0009124. For every 1,000 more people,
+the NDVI goes up by 0.015. And finally, for every 1 meter of elevation,
+the NDVI increases by 0.0001787. All of these variables have very low
+p-values, meaning they have high significance. Water has a negative
+relationship but no significant magnitude, as its p-value is 0.249, much
+higher than the 0.05 threshold.}
 
 **Question 5** *Create a multivariate regression model with the
 variables of interest, choosing EITHER max or min temperature (but not
@@ -386,8 +394,16 @@ significant effects on the NDVI. The maximum temperature has a negative
 influence while the other three have positive influences. The R2
 indicates a 64% significance value, which is very strong, and the
 F-statistic is very high at 315.5, suggesting that these factors are
-statistically significant. Both this question and Q4 had the same
-results, but this one suggested more significance.}
+statistically significant. While there is a slight shift in the
+multivariate model compared to the univariate model in question 4, which
+is expected as the multivariate model accounts for the combined effects
+of multiple predictors, which can cause the apparent influence of each
+individual predictor to adjust. These changes in magnitude suggest that
+these factors may have been confounded in the univariate models, and
+controlling for them provides a clearer picture of the relationships.
+Despite these changes, in coefficient magnitude, the relationships
+between the variables and NDVI remained consistent in terms of direction
+(positive or negative) and statistical significance.}
 
 **Question 7** *Use a histogram and a map to assess the normality of
 residuals and any spatial autocorrelation. Summarise any notable
